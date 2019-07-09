@@ -1,15 +1,16 @@
 ﻿spring:
-	profiles:
-		active:
-		- dev
+    profiles:
+        active:
+        - dev
 ---
 spring:
-	profiles: dev    #开发环境
-	application:
-		name: microserviceclod-config-gdie-dev
+    profiles:
+    application:
+        name: microserviceclod-config-gdie-dev
+    
 ---
 spring:
-	profiles: test   #测试环境
-	application:
-		name: microserviceclod-config-gdie-test
+    profiles:
+    application:
+        name: microserviceclod-config-gdie-test
 # 用UTF-8保存
